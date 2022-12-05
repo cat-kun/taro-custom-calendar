@@ -1,0 +1,88 @@
+.calendar-container {
+  .year {
+    margin: 20px auto;
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+  }
+  .week-wrap {
+    margin: 0 0 20px 0;
+    color: #c4c2cf;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .date-wrap {
+    flex-flow: wrap;
+  }
+  .date {
+    flex: 0 0 14.2857142857%;
+    padding: 10px 0;
+    color: #c4c2cf;
+    font-size: 30px;
+    line-height: 72px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    &.current {
+      color: #807f86;
+    }
+  }
+  .date-item {
+    width: 72px;
+    height: 72px;
+    margin: 0 auto;
+  }
+}
+
+.today {
+  width: 72px !important;
+  height: 72px !important;
+  overflow: hidden;
+  color: #fff !important;
+  background: #ff6c2d !important;
+  border-radius: 50% !important;
+}
+
+.other-focus {
+  color: #ff6c2d !important;
+  font-weight: bold;
+}
+
+.focus {
+  width: 72px !important;
+  height: 72px !important;
+  overflow: hidden;
+  color: #fff !important;
+  background: #00c59a !important;
+  border-radius: 50% !important;
+}
+
+.record-dot {
+  justify-content: space-around;
+  width: 40%;
+  margin: 10px auto 0;
+}
+.fit {
+  width: 6px;
+  height: 6px;
+  background: #00c59a;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.fruit {
+  width: 6px;
+  height: 6px;
+  background: orange;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.smoking {
+  width: 6px;
+  height: 6px;
+  background: gray;
+  overflow: hidden;
+  border-radius: 50%;
+}

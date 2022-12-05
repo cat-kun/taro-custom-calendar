@@ -1,0 +1,19 @@
+{
+  "name": "taro-custom-calendar",
+  "version": "1.0.4",
+  "description": "taro自定义日历组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "taro",
+    "自定义日历组件"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "classnames": "^2.3.2",
+    "dayjs": "^1.11.6"
+  }
+}
